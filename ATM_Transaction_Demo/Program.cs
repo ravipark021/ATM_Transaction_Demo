@@ -68,8 +68,6 @@ namespace ATM_Transaction_Demo
                 Console.Write("Enter the Amount you want to Withdraw: ");
                 int UserEnteredAmt = Convert.ToInt32(Console.ReadLine());
 
-
-
                 int Val_Withdraw = obj.Withdraw_Amt(UserEnteredAmt);
                 if (Val_Withdraw > 0)
                 {
